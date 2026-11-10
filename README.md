@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Reperto
+
+**Live Concert Report Converter**
+
+Reperto is a web-based application designed to convert plain-text live concert setlists into structured Excel reports. It allows users to organize concert information, categorize song performances, generate reports, and submit them to a centralized dashboard.
+
+## Features
+
+- **Concert Information** – Enter the concert title, venue, date, and frequency.
+- **Song List Conversion** – Convert plain-text song lists with corresponding singers into structured reports.
+- **Performance Categories** – Categorize songs into:
+  - Mechanical Background Before Concert
+  - Video and Audio Presentation
+  - Front Act
+  - Main Act
+- **Excel Report Generation** – Generate organized Excel reports.
+- **Report Submission** – Submit generated reports to the dashboard.
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the application by modifying `app/page.tsx`. The page automatically updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technology Stack
 
-## Learn More
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
 
-To learn more about Next.js, take a look at the following resources:
+## Project Purpose
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Reperto aims to simplify live concert monitoring documentation by making setlist conversion, categorization, and report generation faster and more organized.
